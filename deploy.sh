@@ -1,2 +1,2 @@
-npm i -g mintlify
+yarn add mintlify
 mintlify dev
