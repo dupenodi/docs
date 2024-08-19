@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
   module.exports = {
     title: "LOOPX Documentation",
     tagline: "Launch Faster, Build Cheaper, Serve customers better",
-    url: "https://your-docusaurus-test-site.com",
+    url: "https://loopx-docs-netlify.app",
     baseUrl: "/",
     onBrokenLinks: "throw",
     onBrokenMarkdownLinks: "warn",
