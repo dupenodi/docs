@@ -1,0 +1,62 @@
+:root {
+  --docs-card-bg-c: #ffffff; /* Background color of the card */
+  --docs-card-border-c: #e0e0e0; /* Border color of the card */
+  --docs-card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow on hover */
+  --ifm-heading-color: #2b2b2b; /* Color for headings */
+  --ifm-body-color: #5f6c72; /* Color for body text */
+}
+
+.card {
+  background-color: var(--docs-card-bg-c);
+  border: 1px solid var(--docs-card-border-c);
+  border-radius: 12px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  transition: box-shadow 150ms ease-out, transform 150ms ease-out;
+}
+
+.card:hover {
+  box-shadow: var(--docs-card-shadow);
+  transform: translateY(-2px);
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+}
+
+.cardIcon {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+}
+
+.cardTitle {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  color: var(--ifm-heading-color);
+}
+
+.cardContent {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--ifm-body-color);
+}
+
+.cardLink {
+  text-decoration: none;
+  color: inherit;
+}
+.cardLink:hover {
+  text-decoration: none;
+}
+
+.large {
+  font-size: 1rem;
+  padding: 2rem;
+}
