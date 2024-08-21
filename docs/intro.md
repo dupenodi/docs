@@ -1,4 +1,5 @@
 ---
+slug: /
 sidebar_position: 1
 ---
 
@@ -18,21 +19,21 @@ Let's discover **Docusaurus in less than 5 minutes**.
 <CardGroup>
   <Card
     title="Experience Layer"
-    href="/docs/experience-layer/flow-builder"
+    href="/experience-layer/flow-builder"
     icon="/img/experiment.svg"
   >
     Design Magic at Your Fingertips.
   </Card>
   <Card
     title="Extensions Layer"
-    href="/docs/extensions-layer/providers"
+    href="/extensions-layer/providers"
     icon="/img/electrical_services.svg"
   >
     API Mastery, No Circus Required.
   </Card>
   <Card
     title="Insights Layer"
-    href="/docs/insights-layer/data-work-bench"
+    href="/insights-layer/data-work-bench"
     icon="/img/search_insights.svg"
   >
     See Beyond with Data Wizardry.

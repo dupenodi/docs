@@ -21,7 +21,7 @@ A single screen in your app where all the magic happens. Each Card represents a 
 <CardGroup>
   <Card
     title="Figma to Card"
-    href="/docs/experience-layer/flow-builder"
+    href="/experience-layer/flow-builder"
     icon="/img/figma_logo.svg"
   >
 Convert Figma designs into app-ready Cards in a few clicks.
