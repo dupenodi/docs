@@ -50,11 +50,6 @@ module.exports = {
           label: "Docs",
         },
         {
-          to: '/library',
-          label: 'Library',
-          position: 'left'
-        },
-        {
           href: "https://github.com/",
           label: "GitHub",
           position: "right",
