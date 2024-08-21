@@ -103,4 +103,9 @@ module.exports = {
       darkTheme: darkCodeTheme,
     },
   },
+   // Add custom fields here
+   customFields: {
+    domain: "https://demo.niti.ai/docs",
+    // domain: "http://localhost:3001"
+  },
 };
