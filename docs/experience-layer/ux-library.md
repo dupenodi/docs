@@ -21,21 +21,21 @@ You can create themes in various ways to match your design needs:
   <Card
     title="Figma to Theme"
     href="/docs/experience-layer/flow-builder"
-    icon="/static/img/figma_logo.svg"
+    icon="/img/figma_logo.svg"
   >
 Import your Figma design system to create themes that match your design guidelines.
 </Card>
 <Card
 title="Screenshot to Theme"
 href=""
-icon="/static/img/screenshot.svg">
+icon="/img/screenshot.svg">
 Describe your desired theme, and Loop AI will generate a brand-compliant theme for you.
 </Card>
 
 <Card
 title="Prompt to Theme"
 href=""
-icon="/static/img/chat.svg">
+icon="/img/chat.svg">
 Upload a screenshot, and Loop AI will create a theme based on the visual elements.
 </Card>
 </CardGroup>

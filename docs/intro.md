@@ -19,21 +19,21 @@ Let's discover **Docusaurus in less than 5 minutes**.
   <Card
     title="Experience Layer"
     href="/docs/experience-layer/flow-builder"
-    icon="../static/img/experiment.svg"
+    icon="/img/experiment.svg"
   >
     Design Magic at Your Fingertips.
   </Card>
   <Card
     title="Extensions Layer"
     href="/docs/extensions-layer/providers"
-    icon="/static/img/electrical_services.svg"
+    icon="/img/electrical_services.svg"
   >
     API Mastery, No Circus Required.
   </Card>
   <Card
     title="Insights Layer"
     href="/docs/insights-layer/data-work-bench"
-    icon="/static/img/search_insights.svg"
+    icon="/img/search_insights.svg"
   >
     See Beyond with Data Wizardry.
   </Card>
