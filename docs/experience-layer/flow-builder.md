@@ -45,13 +45,22 @@ Type your prompts and let Flow Builder create Cards for you.
 
 Map out user experiences with intuitive graphs. Visualize the entire user adventure with ease.
 
+![Journey](../../static/img/journey.png)
+
+
 ## Simulate
 
 Test your flow to ensure everything works perfectly before going live. It’s your chance to iron out any issues.
 
+![Simulate](../../static/img/simulate.png)
+
+
 ## Gallery View
 
 See all your Cards at once, just like flipping through slides in Google Slides. Get a comprehensive view of your design.
+
+![Gallery](../../static/img/gallery.png)
+
 
 ## UI Checks
 

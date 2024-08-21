@@ -3,9 +3,13 @@
   align-items: center;
   padding: 2rem 0;
   width: 100%;
+  
 }
 
-.featureSvg {
+.featureImg {
   height: 200px;
   width: 200px;
+  object-fit: contain; /* Ensures the image fits within the dimensions */
+  display: block;
+  margin: 0 auto; /* Centers the image horizontally */
 }

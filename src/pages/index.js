@@ -34,7 +34,7 @@ export default function Home() {
       description={`Documentation for ${siteConfig.title}`}
     >
       <HomepageHeader />
-      <main>
+      <main className="home">
         <HomepageFeatures />
       </main>
     </Layout>
