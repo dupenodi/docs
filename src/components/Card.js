@@ -1,11 +1,10 @@
 import React from "react";
 import clsx from "clsx";
 import styles from "./Card.module.css";
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 
 const Card = ({ title, img, icon, children, href, className, size = "md" }) => {
-  const { siteConfig } = useDocusaurusContext();
-  const domain = siteConfig.customFields.domain;
+  // Use the provided img or icon URL directly without appending any domain
+  const imageUrl = img || icon;
 
   const content = (
     <div
@@ -13,14 +12,7 @@ const Card = ({ title, img, icon, children, href, className, size = "md" }) => {
         [styles.large]: size === "lg",
       })}
     >
-      {img && <img src={img} alt={title} className={styles.cardImage} />}
-      {icon && (
-        <img
-          src={`${domain ? domain : ""}${icon}`} // Use the domain from config
-          alt=""
-          className={styles.cardIcon}
-        />
-      )}
+      {imageUrl && <img src={imageUrl} alt={title || ""} className={styles.cardImage} />}
       {title && <h3 className={styles.cardTitle}>{title}</h3>}
       <div className={styles.cardContent}>{children}</div>
     </div>

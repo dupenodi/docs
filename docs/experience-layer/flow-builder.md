@@ -19,45 +19,47 @@ A single screen in your app where all the magic happens. Each Card represents a 
 ### Card Creation Methods:
 
 <CardGroup>
+<Card
+  title="Figma to Card"
+  href="/experience-layer/flow-builder"
+  icon={"https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/figma_logo.svg"}
+>
+  Convert Figma designs into app-ready Cards in a few clicks.
+  </Card>
   <Card
-    title="Figma to Card"
-    href="/experience-layer/flow-builder"
-    icon="/img/figma_logo.svg"
+    title="Screenshot to Card"
+    href=""
+  icon={"https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/screenshot.svg"}
   >
-Convert Figma designs into app-ready Cards in a few clicks.
-</Card>
-<Card
-title="Screenshot to Card"
-href=""
-icon="/img/screenshot.svg">
-Snap a screenshot and instantly turn it into a Card.
-</Card>
+  Snap a screenshot and instantly turn it into a Card.
+  </Card>
 
-<Card
-title="Prompt to Card"
-href=""
-icon="/img/chat.svg">
-Type your prompts and let Flow Builder create Cards for you.
-</Card>
+  <Card
+    title="Prompt to Card"
+    href=""
+  icon={"https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/chat.svg"}
+  >
+  Type your prompts and let Flow Builder create Cards for you.
+  </Card>
 </CardGroup>
 
 ## Journey
 
 Map out user experiences with intuitive graphs. Visualize the entire user adventure with ease.
 
-![Journey](../../static/img/journey.png)
+![Journey](https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/journey.png)
 
 ## Simulate
 
 Test your flow to ensure everything works perfectly before going live. It’s your chance to iron out any issues.
 
-![Simulate](../../static/img/simulate.png)
+![Simulate](https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/simulate.png)
 
 ## Gallery View
 
 See all your Cards at once, just like flipping through slides in Google Slides. Get a comprehensive view of your design.
 
-![Gallery](../../static/img/gallery.png)
+![Gallery](https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/gallery.png)
 
 ## UI Checks
 

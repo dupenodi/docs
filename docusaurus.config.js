@@ -6,11 +6,11 @@ module.exports = {
   title: "LOOPX Documentation",
   tagline: "Launch Faster, Build Cheaper, Serve customers better",
   url: "https://loopx-docs-netlify.app",
-  baseUrl: "/",
+  baseUrl: "/docs/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
-  organizationName: "facebook", // Usually your GitHub org/user name.
+  organizationName: "nitiai", // Usually your GitHub org/user name.
   projectName: "docusaurus", // Usually your repo name.
 
   presets: [
@@ -41,7 +41,7 @@ module.exports = {
       title: "",
       logo: {
         alt: "LOOPX Logo",
-        src: "img/loopX.svg",
+        src: "https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/loopX.svg",
       },
       items: [
         {
