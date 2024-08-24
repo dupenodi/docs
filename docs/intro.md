@@ -19,21 +19,21 @@ Let's discover **Docusaurus in less than 5 minutes**.
 <CardGroup>
   <Card
     title="Experience Layer"
-    href="/experience-layer/flow-builder"
+    href="/documentation/experience-layer/flow-builder"
   icon={"https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/experiment.svg"}
   >
     Design Magic at Your Fingertips.
   </Card>
   <Card
     title="Extensions Layer"
-    href="/extensions-layer/providers"
+    href="/documentation/extensions-layer/providers"
   icon={"https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/electrical_services.svg"}
   >
     API Mastery, No Circus Required.
   </Card>
   <Card
     title="Insights Layer"
-    href="/insights-layer/data-work-bench"
+    href="/documentation/insights-layer/data-work-bench"
   icon={"https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/search_insights.svg"}
   >
     See Beyond with Data Wizardry.

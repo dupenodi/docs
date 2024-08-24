@@ -20,7 +20,7 @@ You can create themes in various ways to match your design needs:
 <CardGroup>
   <Card
     title="Figma to Theme"
-    href="/experience-layer/flow-builder"
+    href=""
   icon={"https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/figma_logo.svg"}
   >
 Import your Figma design system to create themes that match your design guidelines.
