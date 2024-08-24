@@ -6,7 +6,7 @@ module.exports = {
   title: "LOOPX Documentation",
   tagline: "Launch Faster, Build Cheaper, Serve customers better",
   url: "https://loopx-docs-netlify.app",
-  baseUrl: "/docs/",
+  baseUrl: "/documentation/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
