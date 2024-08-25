@@ -9,9 +9,10 @@ module.exports = {
   baseUrl: "/documentation/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
-  favicon: "img/favicon.ico",
-  organizationName: "nitiai", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  favicon:
+    "https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/loopx_blue_icon.svg",
+  organizationName: "niti.ai", // Usually your GitHub org/user name.
+  projectName: "documentation", // Usually your repo name.
 
   presets: [
     [
@@ -30,11 +31,10 @@ module.exports = {
     ],
   ],
 
-
   themeConfig: {
     colorMode: {
       disableSwitch: true,
-      defaultMode: 'light',
+      defaultMode: "light",
       respectPrefersColorScheme: false,
     },
     navbar: {
@@ -73,16 +73,12 @@ module.exports = {
           title: "Community",
           items: [
             {
-              label: "Twitter",
-              href: "https://x.com",
-            },
-            {
               label: "LinkedIn",
-              href: "https://linkedin.com",
+              href: "https://www.linkedin.com/company/loop-x",
             },
             {
-              label: "Facebook",
-              href: "https://facebook.com",
+              label: "Email",
+              href: "https://mail.google.com/mail/?view=cm&fs=1&to=hari@loopx.live&su=SUBJECT&body=BODY",
             },
           ],
         },
@@ -103,8 +99,8 @@ module.exports = {
       darkTheme: darkCodeTheme,
     },
   },
-   // Add custom fields here
-   customFields: {
+  // Add custom fields here
+  customFields: {
     domain: "https://demo.niti.ai/docs",
     // domain: "http://localhost:3001"
   },
