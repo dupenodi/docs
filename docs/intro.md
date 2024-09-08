@@ -8,7 +8,7 @@ import Card from '@site/src/components/Card';
 
 # Getting Started
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Let's discover **LOOPX in less than 5 minutes**.
 
 :::warning
 
@@ -20,91 +20,44 @@ Let's discover **Docusaurus in less than 5 minutes**.
   <Card
     title="Experience Layer"
     href="/documentation/experience-layer/flow-builder"
-  icon={"https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/experiment.svg"}
+    icon={"https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/experiment.svg"}
   >
     Design Magic at Your Fingertips.
   </Card>
   <Card
     title="Extensions Layer"
     href="/documentation/extensions-layer/providers"
-  icon={"https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/electrical_services.svg"}
+    icon={"https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/electrical_services.svg"}
   >
     API Mastery, No Circus Required.
   </Card>
   <Card
     title="Insights Layer"
     href="/documentation/insights-layer/data-work-bench"
-  icon={"https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/search_insights.svg"}
+    icon={"https://loop-niti-assets.s3.ap-south-1.amazonaws.com/loopx-docs/search_insights.svg"}
   >
     See Beyond with Data Wizardry.
   </Card>
 </CardGroup>
 
-## Welcome to LoopX
+## What is LoopX?
 
-With LoopX, you’ve got a powerhouse of tools to turn your app development from “meh” to “wow!” Plus, you’ll love these benefits:
+With LoopX, you have a robust platform that simplifies the creation, integration, and iteration of user journeys and custom products, all without needing dedicated development or operations teams. Key features of LoopX include:
 
-<details open>
-  <summary><strong>No Code Required</strong></summary>
+### Create
 
-Design and deploy your app without writing a single line of code. Just a few clicks and drags, and watch your app come to life effortlessly.
+Build custom products and personalized user journeys at scale without requiring development or dev-ops support. LoopX provides AI-powered co-pilots and features like Figma import to enable rapid creation of functional journeys directly from design mocks.
 
-</details>
+### Integrate
 
-<details open>
-  <summary><strong>No Development or Operations Hassles</strong></summary>
+Seamlessly connect with API partners from our marketplace. Gain full visibility into performance, usage, and availability for your backend APIs and integrations, allowing for smooth and reliable connections.
 
-Say goodbye to the complexities of development and operations. Our platform handles all the technical details, freeing you up to focus on creating an outstanding app.
+### Launch
 
-</details>
+Deploy journeys with a single click, targeting select users instantly. There's no need for complex deployment processes, freeing your dev and IT teams from unnecessary tasks, and no app upgrades are required for users.
 
-<details open>
-  <summary><strong>Built-in Analytics</strong></summary>
+### Iterate
 
-Keep track of your app’s performance with built-in analytics. Gain valuable insights and make data-driven decisions without needing extra tools.
+Leverage built-in analytics to gain insights into user behavior and performance. Experiment on custom products and journeys to continually optimize conversion rates and user engagement through data-driven iterations.
 
-</details>
-
-<details open>
-  <summary><strong>Seamless Integrations</strong></summary>
-
-Easily integrate with a wide range of APIs and data sources. Our platform supports smooth integrations to ensure your app connects with all the right tools and services.
-
-</details>
-
-<details open>
-  <summary><strong>Scalable Solutions</strong></summary>
-
-Grow your app effortlessly as your needs expand. Our platform scales with you, ensuring that whether you're starting small or going big, we’ve got you covered.
-
-</details>
-
-<details open>
-  <summary><strong>Enhanced Security</strong></summary>
-
-Rest easy with robust security features built into our platform. We prioritize data protection and compliance to keep your information safe and secure.
-
-</details>
-
-<details open>
-  <summary><strong>User-Friendly Interface</strong></summary>
-
-Navigate our platform with ease thanks to an intuitive, user-friendly interface. Build, test, and manage your app without any technical barriers.
-
-</details>
-
-<details open>
-  <summary><strong>Creative Freedom</strong></summary>
-
-Explore endless design possibilities with our powerful tools. Customize and personalize your app’s look and feel to perfectly match your vision.
-
-</details>
-
-- **No Code Required**: Design and deploy your app without writing a single line of code. Just a few clicks and drags, and watch your app come to life effortlessly.
-- **No Development or Operations Hassles**: Say goodbye to the complexities of development and operations. Our platform handles all the technical details, freeing you up to focus on creating an outstanding app.
-- **Built-in Analytics**: Keep track of your app’s performance with built-in analytics. Gain valuable insights and make data-driven decisions without needing extra tools.
-- **Seamless Integrations**: Easily integrate with a wide range of APIs and data sources. Our platform supports smooth integrations to ensure your app connects with all the right tools and services.
-- **Scalable Solutions**: Grow your app effortlessly as your needs expand. Our platform scales with you, ensuring that whether you're starting small or going big, we’ve got you covered.
-- **Enhanced Security**: Rest easy with robust security features built into our platform. We prioritize data protection and compliance to keep your information safe and secure.
-- **User-Friendly Interface**: Navigate our platform with ease thanks to an intuitive, user-friendly interface. Build, test, and manage your app without any technical barriers.
-- **Creative Freedom**: Explore endless design possibilities with our powerful tools. Customize and personalize your app’s look and feel to perfectly match your vision.
+LoopX enables you to innovate faster with fewer constraints, giving you complete control over your product lifecycle from creation to iteration.

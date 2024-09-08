@@ -1,9 +1,9 @@
 :root {
-  --docs-card-bg-c: #ffffff; /* Background color of the card */
-  --docs-card-border-c: #e0e0e0; /* Border color of the card */
-  --docs-card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow on hover */
-  --ifm-heading-color: #2b2b2b; /* Color for headings */
-  --ifm-body-color: #5f6c72; /* Color for body text */
+  --docs-card-bg-c: #ffffff;
+  --docs-card-border-c: #e0e0e0;
+  --docs-card-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  --ifm-heading-color: #2b2b2b;
+  --ifm-body-color: #5f6c72;
 }
 
 .card {
@@ -27,9 +27,16 @@
   height: auto;
   border-radius: 8px;
   margin-bottom: 1rem;
-  max-width: 48px; /* Ensures icon size is handled */
-  max-height: 48px; /* Ensures icon size is handled */
-  object-fit: contain; /* Keeps aspect ratio for both icons and images */
+  max-width: 48px;
+  max-height: 48px;
+  object-fit: contain;
+}
+
+.largeImage {
+  max-width: 50%; /* Make the image take the full width of its container */
+  height: auto; /* Automatically adjust the height based on the width to maintain aspect ratio */
+  max-height: 100px; /* Add a max height to limit the image's size (adjust as needed) */
+  object-fit: contain; /* Ensure the image fits within the container without cropping */
 }
 
 .cardTitle {
@@ -43,6 +50,7 @@
   font-size: 0.875rem;
   line-height: 1.6;
   color: var(--ifm-body-color);
+  text-align: left; /* Center content when image is passed */
 }
 
 .cardLink {
@@ -57,4 +65,10 @@
 .large {
   font-size: 1rem;
   padding: 2rem;
+}
+
+.centered {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }

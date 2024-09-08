@@ -10,9 +10,18 @@ const Card = ({ title, img, icon, children, href, className, size = "md" }) => {
     <div
       className={clsx(styles.card, className, {
         [styles.large]: size === "lg",
+        [styles.centered]: img, // Apply centered styles when an image is passed
       })}
     >
-      {imageUrl && <img src={imageUrl} alt={title || ""} className={styles.cardImage} />}
+      {imageUrl && (
+        <img
+          src={imageUrl}
+          alt={title || ""}
+          className={clsx(styles.cardImage, {
+            [styles.largeImage]: img, // Make image larger when img is passed
+          })}
+        />
+      )}
       {title && <h3 className={styles.cardTitle}>{title}</h3>}
       <div className={styles.cardContent}>{children}</div>
     </div>
